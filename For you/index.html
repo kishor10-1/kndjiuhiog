@@ -1,0 +1,725 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nabeeneyyy — For My Love</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- LOADING -->
+
+    <div class="loader" id="loader">
+        <div class="loader-logo">Nabeeneyyy</div>
+        <div class="loader-heart">♥</div>
+        <div class="loader-line"></div>
+        <p>Something beautiful is waiting for you</p>
+    </div>
+
+
+    <!-- NAVBAR -->
+
+    <header class="navbar">
+
+        <a href="#home" class="brand">
+            Nabeeneyyy
+        </a>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#letter">For You</a>
+        </nav>
+
+        <button class="menu-btn" id="menuBtn">
+            <span></span>
+            <span></span>
+        </button>
+
+    </header>
+
+
+    <!-- MOBILE MENU -->
+
+    <div class="mobile-menu" id="mobileMenu">
+
+        <a href="#home">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#letter">For You</a>
+
+    </div>
+
+
+    <!-- HERO -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-left">
+
+            <div class="eyebrow">
+                A LITTLE SOMETHING FOR YOU
+            </div>
+
+            <h1>
+                Flowers
+                <br>
+                for my
+                <em>favorite</em>
+                person.
+            </h1>
+
+            <p>
+                I could have bought you flowers,
+                but I wanted to create a little garden
+                that stays here just for you.
+            </p>
+
+            <a href="#gallery" class="hero-button">
+                Enter the garden
+                <span>↓</span>
+            </a>
+
+        </div>
+
+
+        <div class="hero-right">
+
+            <div class="hero-photo">
+
+                <img
+                    src="images/rose1.jpg"
+                    alt="Rose">
+
+                <div class="photo-tag">
+                    <span>01</span>
+                    <p>Made especially<br>for you</p>
+                </div>
+
+            </div>
+
+            <div class="floating-note">
+                <span>♥</span>
+                <p>
+                    You are<br>
+                    my favorite<br>
+                    flower.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- INTRO -->
+
+    <section class="intro">
+
+        <div class="intro-small">
+            01 / 05
+        </div>
+
+        <div class="intro-main">
+
+            <p class="section-label">
+                A GARDEN OF MEMORIES
+            </p>
+
+            <h2>
+                Every flower is beautiful,
+                <br>
+                but <em>you</em> are my favorite.
+            </h2>
+
+            <p class="intro-text">
+                Twenty-five little pieces of nature,
+                collected together for one very special person.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- GALLERY -->
+
+    <section class="gallery-section" id="gallery">
+
+        <div class="gallery-heading">
+
+            <div>
+
+                <p class="section-label">
+                    THE COLLECTION
+                </p>
+
+                <h2>
+                    Flowers
+                </h2>
+
+            </div>
+
+            <p>
+                25 flowers.<br>
+                One special reason.
+            </p>
+
+        </div>
+
+
+        <!-- FILTERS -->
+
+        <div class="filters">
+
+            <button class="filter active" data-filter="all">
+                All
+            </button>
+
+            <button class="filter" data-filter="rose">
+                Roses
+            </button>
+
+            <button class="filter" data-filter="tulip">
+                Tulips
+            </button>
+
+            <button class="filter" data-filter="sunflower">
+                Sunflowers
+            </button>
+
+            <button class="filter" data-filter="daisy">
+                Daisies
+            </button>
+
+            <button class="filter" data-filter="lily">
+                Lilies
+            </button>
+
+        </div>
+
+
+        <!-- FLOWERS -->
+
+        <div class="gallery">
+
+
+            <!-- ROSES -->
+
+            <div class="flower-card"
+                 data-category="rose"
+                 data-title="Rose"
+                 data-number="01">
+
+                <img src="images/rose1.jpg" alt="Rose">
+
+                <div class="card-info">
+                    <span>01 · ROSE</span>
+                    <h3>Romance</h3>
+                </div>
+
+            </div>
+
+
+            <div class="flower-card"
+                 data-category="rose"
+                 data-title="Rose"
+                 data-number="02">
+
+                <img src="images/rose2.jpg" alt="Rose">
+
+                <div class="card-info">
+                    <span>02 · ROSE</span>
+                    <h3>Elegance</h3>
+                </div>
+
+            </div>
+
+
+            <div class="flower-card"
+                 data-category="rose"
+                 data-title="Rose"
+                 data-number="03">
+
+                <img src="images/rose3.jpg" alt="Rose">
+
+                <div class="card-info">
+                    <span>03 · ROSE</span>
+                    <h3>Beauty</h3>
+                </div>
+
+            </div>
+
+
+            <div class="flower-card"
+                 data-category="rose"
+                 data-title="Rose"
+                 data-number="04">
+
+                <img src="images/rose4.jpg" alt="Rose">
+
+                <div class="card-info">
+                    <span>04 · ROSE</span>
+                    <h3>Passion</h3>
+                </div>
+
+            </div>
+
+
+            <div class="flower-card"
+                 data-category="rose"
+                 data-title="Rose"
+                 data-number="05">
+
+                <img src="images/rose5.jpg" alt="Rose">
+
+                <div class="card-info">
+                    <span>05 · ROSE</span>
+                    <h3>Forever</h3>
+                </div>
+
+            </div>
+
+
+            <!-- TULIPS -->
+
+            <div class="flower-card"
+                 data-category="tulip"
+                 data-title="Tulip"
+                 data-number="06">
+
+                <img src="images/tulip1.jpg" alt="Tulip">
+
+                <div class="card-info">
+                    <span>06 · TULIP</span>
+                    <h3>Grace</h3>
+                </div>
+
+            </div>
+
+
+            <div class="flower-card"
+                 data-category="tulip"
+                 data-title="Tulip"
+                 data-number="07">
+
+                <img src="images/tulip2.jpg" alt="Tulip">
+
+                <div class="card-info">
+                    <span>07 · TULIP</span>
+                    <h3>Spring</h3>
+                </div>
+
+            </div>
+
+
+            <div class="flower-card"
+                 data-category="tulip"
+                 data-title="Tulip"
+                 data-number="08">
+
+                <img src="images/tulip3.jpg" alt="Tulip">
+
+                <div class="card-info">
+                    <span>08 · TULIP</span>
+                    <h3>Softness</h3>
+                </div>
+
+            </div>
+
+
+            <div class="flower-card"
+                 data-category="tulip"
+                 data-title="Tulip"
+                 data-number="09">
+
+                <img src="images/tulip4.jpg" alt="Tulip">
+
+                <div class="card-info">
+                    <span>09 · TULIP</span>
+                    <h3>Dream</h3>
+                </div>
+
+            </div>
+
+
+            <div class="flower-card"
+                 data-category="tulip"
+                 data-title="Tulip"
+                 data-number="10">
+
+                <img src="images/tulip5.jpg" alt="Tulip">
+
+                <div class="card-info">
+                    <span>10 · TULIP</span>
+                    <h3>Pure</h3>
+                </div>
+
+            </div>
+
+
+            <!-- SUNFLOWERS -->
+
+            <div class="flower-card"
+                 data-category="sunflower"
+                 data-title="Sunflower"
+                 data-number="11">
+
+                <img src="images/sunflower1.jpg" alt="Sunflower">
+
+                <div class="card-info">
+                    <span>11 · SUNFLOWER</span>
+                    <h3>Sunshine</h3>
+                </div>
+
+            </div>
+
+
+            <div class="flower-card"
+                 data-category="sunflower"
+                 data-title="Sunflower"
+                 data-number="12">
+
+                <img src="images/sunflower2.jpg" alt="Sunflower">
+
+                <div class="card-info">
+                    <span>12 · SUNFLOWER</span>
+                    <h3>Warmth</h3>
+                </div>
+
+            </div>
+
+
+            <div class="flower-card"
+                 data-category="sunflower"
+                 data-title="Sunflower"
+                 data-number="13">
+
+                <img src="images/sunflower3.jpg" alt="Sunflower">
+
+                <div class="card-info">
+                    <span>13 · SUNFLOWER</span>
+                    <h3>Joy</h3>
+                </div>
+
+            </div>
+
+
+            <div class="flower-card"
+                 data-category="sunflower"
+                 data-title="Sunflower"
+                 data-number="14">
+
+                <img src="images/sunflower4.jpg" alt="Sunflower">
+
+                <div class="card-info">
+                    <span>14 · SUNFLOWER</span>
+                    <h3>Golden</h3>
+                </div>
+
+            </div>
+
+
+            <div class="flower-card"
+                 data-category="sunflower"
+                 data-title="Sunflower"
+                 data-number="15">
+
+                <img src="images/sunflower5.jpg" alt="Sunflower">
+
+                <div class="card-info">
+                    <span>15 · SUNFLOWER</span>
+                    <h3>Happiness</h3>
+                </div>
+
+            </div>
+
+
+            <!-- DAISIES -->
+
+            <div class="flower-card"
+                 data-category="daisy"
+                 data-title="Daisy"
+                 data-number="16">
+
+                <img src="images/daisy1.jpg" alt="Daisy">
+
+                <div class="card-info">
+                    <span>16 · DAISY</span>
+                    <h3>Innocence</h3>
+                </div>
+
+            </div>
+
+
+            <div class="flower-card"
+                 data-category="daisy"
+                 data-title="Daisy"
+                 data-number="17">
+
+                <img src="images/daisy2.jpg" alt="Daisy">
+
+                <div class="card-info">
+                    <span>17 · DAISY</span>
+                    <h3>Pure</h3>
+                </div>
+
+            </div>
+
+
+            <div class="flower-card"
+                 data-category="daisy"
+                 data-title="Daisy"
+                 data-number="18">
+
+                <img src="images/daisy3.jpg" alt="Daisy">
+
+                <div class="card-info">
+                    <span>18 · DAISY</span>
+                    <h3>Gentle</h3>
+                </div>
+
+            </div>
+
+
+            <div class="flower-card"
+                 data-category="daisy"
+                 data-title="Daisy"
+                 data-number="19">
+
+                <img src="images/daisy4.jpg" alt="Daisy">
+
+                <div class="card-info">
+                    <span>19 · DAISY</span>
+                    <h3>Fresh</h3>
+                </div>
+
+            </div>
+
+
+            <div class="flower-card"
+                 data-category="daisy"
+                 data-title="Daisy"
+                 data-number="20">
+
+                <img src="images/daisy5.jpg" alt="Daisy">
+
+                <div class="card-info">
+                    <span>20 · DAISY</span>
+                    <h3>Smile</h3>
+                </div>
+
+            </div>
+
+
+            <!-- LILIES -->
+
+            <div class="flower-card"
+                 data-category="lily"
+                 data-title="Lily"
+                 data-number="21">
+
+                <img src="images/lily1.jpg" alt="Lily">
+
+                <div class="card-info">
+                    <span>21 · LILY</span>
+                    <h3>Serenity</h3>
+                </div>
+
+            </div>
+
+
+            <div class="flower-card"
+                 data-category="lily"
+                 data-title="Lily"
+                 data-number="22">
+
+                <img src="images/lily2.jpg" alt="Lily">
+
+                <div class="card-info">
+                    <span>22 · LILY</span>
+                    <h3>Elegance</h3>
+                </div>
+
+            </div>
+
+
+            <div class="flower-card"
+                 data-category="lily"
+                 data-title="Lily"
+                 data-number="23">
+
+                <img src="images/lily3.jpg" alt="Lily">
+
+                <div class="card-info">
+                    <span>23 · LILY</span>
+                    <h3>Delicate</h3>
+                </div>
+
+            </div>
+
+
+            <div class="flower-card"
+                 data-category="lily"
+                 data-title="Lily"
+                 data-number="24">
+
+                <img src="images/lily4.jpg" alt="Lily">
+
+                <div class="card-info">
+                    <span>24 · LILY</span>
+                    <h3>Calm</h3>
+                </div>
+
+            </div>
+
+
+            <div class="flower-card"
+                 data-category="lily"
+                 data-title="Lily"
+                 data-number="25">
+
+                <img src="images/lily5.jpg" alt="Lily">
+
+                <div class="card-info">
+                    <span>25 · LILY</span>
+                    <h3>Forever</h3>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- LOVE / LETTER -->
+
+    <section class="love-section" id="letter">
+
+        <div class="love-photo">
+
+            <img
+                src="images/rose5.jpg"
+                alt="Beautiful flower">
+
+        </div>
+
+        <div class="love-content">
+
+            <p class="section-label">
+                A LETTER FOR YOU
+            </p>
+
+            <h2>
+                You are my
+                <em>favorite</em>
+                place.
+            </h2>
+
+            <p>
+                Among all the beautiful things in this world,
+                somehow I found my favorite one in you.
+            </p>
+
+            <div class="big-heart">
+                ♥
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- LIGHTBOX -->
+
+    <div class="lightbox" id="lightbox">
+
+        <button
+            class="lightbox-close"
+            id="lightboxClose">
+            ×
+        </button>
+
+        <button
+            class="lightbox-arrow prev"
+            id="prevBtn">
+            ‹
+        </button>
+
+        <div class="lightbox-content">
+
+            <img
+                id="lightboxImage"
+                src=""
+                alt="Flower">
+
+            <div class="lightbox-info">
+
+                <div>
+                    <span id="lightboxNumber">
+                        01
+                    </span>
+
+                    <h3 id="lightboxTitle">
+                        Rose
+                    </h3>
+                </div>
+
+                <div class="lightbox-counter">
+
+                    <strong id="currentImage">
+                        01
+                    </strong>
+
+                    <span>/ 25</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <button
+            class="lightbox-arrow next"
+            id="nextBtn">
+            ›
+        </button>
+
+    </div>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="footer-brand">
+            Nabeeneyyy
+        </div>
+
+        <p>
+            Made with love for someone very special. 🌷
+        </p>
+
+        <div class="made-by">
+            Made with
+            <span>♥</span>
+            by Nabeeneyyy
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
